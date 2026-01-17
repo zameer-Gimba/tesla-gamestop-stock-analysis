@@ -53,3 +53,11 @@ from src.stock_analysis import make_graph
 python test.py
 ```
 Note: Testing is optional for this project since the primary deliverable is a Jupyter Notebook with interactive visualizations.
+
+📌 Note on Plot Rendering in the Notebook
+
+When this Jupyter Notebook is downloaded and opened outside its original execution environment, the interactive plots may not render correctly in some viewers (for example, GitHub’s notebook preview). You may still see the plots when opening the notebook in a full editor such as VS Code or Jupyter Lab.
+
+During execution, you may also encounter warnings related to deprecated pandas arguments (e.g. infer_datetime_format). These warnings do not affect the correctness of the results and do not prevent the code from running.
+
+To ensure accessibility, the generated plots are saved within the same folder as the .ipynb notebook during execution. If the plots do not display inline, please refer to the saved plot outputs located alongside the notebook.
