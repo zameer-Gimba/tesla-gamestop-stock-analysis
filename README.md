@@ -52,9 +52,10 @@ from src.stock_analysis import make_graph
 ```
 python test.py
 ```
-Note: Testing is optional for this project since the primary deliverable is a Jupyter Notebook with interactive visualizations.
+## Note:
+> Testing is optional for this project since the primary deliverable is a Jupyter Notebook with interactive visualizations.
 
-📌 Note on Plot Rendering in the Notebook
+> Note on Plot Rendering in the Notebook
 
 When this Jupyter Notebook is downloaded and opened outside its original execution environment, the interactive plots may not render correctly in some viewers (for example, GitHub’s notebook preview). You may still see the plots when opening the notebook in a full editor such as VS Code or Jupyter Lab.
 
